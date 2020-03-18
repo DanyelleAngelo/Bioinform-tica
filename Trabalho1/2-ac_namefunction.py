@@ -1,3 +1,4 @@
+#Danyelle da Silva Oliveira Angelo
 import csv
 entrada = open("uniprot-toxin+organism_spider+AND+reviewed_no.txt","r")
 saida = open("saida.txt2", "w")
