@@ -1,4 +1,4 @@
-AC 	 	 	 	 DE
+AC 	 	  DE
 K4K943	 	Peptide toxin T-39 {ECO:0000313|EMBL:AFU90302.1};;;;;;,
 T1K852	 	Uncharacterized protein {ECO:0000313|EnsemblMetazoa:tetur07g00080.1};;;;;;,
 K4JZ61	 	Peptide toxin T-48 {ECO:0000313|EMBL:AFU90303.1};;;;;;,

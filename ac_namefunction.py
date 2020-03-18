@@ -2,7 +2,7 @@ import csv
 entrada = open("uniprot-toxin+organism_spider+AND+reviewed_no.txt","r")
 saida = open("saida.txt", "w")
 erro = [] #grava as linhas que obtivemos algum erro
-saida.write("AC \t \t \t \t DE")
+saida.write("AC \t \t  DE")
 leitor = csv.reader(entrada,delimiter=' ') #a cada "," encontrada no meu arquivo temos uma nova palavra
 for row in leitor:
     if (row[0] == "AC"):
