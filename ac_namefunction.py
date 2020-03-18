@@ -12,6 +12,6 @@ for row in leitor:
     if (row[0] == "DE" and row[3]=="SubName:"):
         row[4] = row[4].strip("Full=")
         saida.write(' '.join(row[4:])) #converte a lista em string
-        saida.write(";")
+        saida.write(",")
 entrada.close()
 saida.close()
