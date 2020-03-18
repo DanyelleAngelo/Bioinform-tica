@@ -1,9 +1,9 @@
 import csv
-entrada = open("uniprot-toxin+organism_spider+AND+reviewed_no.txt","r")
-saida = open("saida.txt", "w")
+entrada = open("uniprot-toxin+organism_spider.fasta","r")
+saida = open("saida3.txt", "w")
 erro = [] #grava as linhas que obtivemos algum erro
 saida.write("AC \t \t  DE")
-leitor = csv.reader(entrada,delimiter=' ') #a cada "," encontrada no meu arquivo temos uma nova palavra
+leitor = csv.reader(entrada,delimiter=['|','']) #a cada "," encontrada no meu arquivo temos uma nova palavra
 for row in leitor:
     if (row[0] == "AC"):
         row[3] = row[3].strip(";")
