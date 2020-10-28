@@ -28,18 +28,18 @@ def calculateFrequency(sequences,totalSequences):
     frequencys = {}
     for seq in sequences:
         i = 0
-        for c in seq["seq"]:
-            if c not in frequencys:
+        for nucl in seq["seq"]:
+            if nucl not in frequencys:
                 #esse nucleotideo ainda nao foi encontrado em nenhuma sequência
-                frequencys[c]= {i:seq["occurrences"]}
+                frequencys[nucl]= {i:seq["occurrences"]}
             else:
                 #esse nucletideo ja foi lido em outra sequência
                 #esse nucleotieo ja foi em outra sequência na coluna i
-                if i in frequencys[c]:
-                    frequencys[c][i] += seq["occurrences"]
+                if i in frequencys[nucl]:
+                    frequencys[nucl][i] += seq["occurrences"]
                 else:
                     #esse nucleotideo nao foi lido na posicao i
-                    frequencys[c][i] = seq["occurrences"]
+                    frequencys[nucl][i] = seq["occurrences"]
             i+=1  
     return frequencys
 

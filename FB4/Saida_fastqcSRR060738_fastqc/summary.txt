@@ -1,0 +1,10 @@
+PASS	Basic Statistics	SRR060738.fastq
+FAIL	Per base sequence quality	SRR060738.fastq
+PASS	Per sequence quality scores	SRR060738.fastq
+FAIL	Per base sequence content	SRR060738.fastq
+WARN	Per sequence GC content	SRR060738.fastq
+PASS	Per base N content	SRR060738.fastq
+WARN	Sequence Length Distribution	SRR060738.fastq
+PASS	Sequence Duplication Levels	SRR060738.fastq
+PASS	Overrepresented sequences	SRR060738.fastq
+PASS	Adapter Content	SRR060738.fastq

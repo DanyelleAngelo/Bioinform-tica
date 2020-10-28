@@ -1,0 +1,10 @@
+PASS	Basic Statistics	SRR060738_prinseq_good_AYcR.fastq
+WARN	Per base sequence quality	SRR060738_prinseq_good_AYcR.fastq
+PASS	Per sequence quality scores	SRR060738_prinseq_good_AYcR.fastq
+FAIL	Per base sequence content	SRR060738_prinseq_good_AYcR.fastq
+WARN	Per sequence GC content	SRR060738_prinseq_good_AYcR.fastq
+PASS	Per base N content	SRR060738_prinseq_good_AYcR.fastq
+WARN	Sequence Length Distribution	SRR060738_prinseq_good_AYcR.fastq
+PASS	Sequence Duplication Levels	SRR060738_prinseq_good_AYcR.fastq
+PASS	Overrepresented sequences	SRR060738_prinseq_good_AYcR.fastq
+PASS	Adapter Content	SRR060738_prinseq_good_AYcR.fastq
